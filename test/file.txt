@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl">
+  <head>
+  <title>Zbiory NAC on-line</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+    <link rel="stylesheet" type="text/css" href="/css/jquery.tooltip.css" />    
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />    
+    <script type="text/javascript" language="javascript" src="/js/lytebox.js"></script>
+    <link rel="stylesheet" href="/css/lytebox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.dimensions.js"></script>
+    <script type="text/javascript" src="/js/jquery.tooltip.js"></script>
+    <script type="text/javascript" src="/js/effects.js"></script>
+    <link rel="stylesheet" type="text/css" href="/js/cookiecuttr/cookiecuttr.css" />
+    <script type="text/javascript" src="/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/js/cookiecuttr/jquery.cookiecuttr.js"></script>
+    <link type="image/vnd.microsoft.icon" href="/favicon.ico" rel="shortcut icon"/>
+    <script type="text/javascript">
+    $(document).ready(function () {
+      $.cookieCuttr();
+    });
+    </script>
+
+  </head>
+
+  <body id="main">
+    <div id="main_container_bar">
+      <div id="main_container_bar_corner_left"></div>
+      <h1>Zbiory NAC on-line</h1>
+      <div id="main_container_bar_corner_right"></div>
+    </div>
+
+    <div id="main_container">
+      <div id="main_container_head">
+        <a id="nac_logo" href="/"></a>
+        
+        <div id="search_form" >
+          <form id="ImageSearchForm" method="post" action="/search/"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset>
+            <div class="input"><label for="ImageSearch"></label><input name="search" type="text" id="ImageSearch" value="" /></div><div class="submit"><input type="image" src="/img/search_button.png" /></div>
+          </form>
+          <a href="/search/advanced" id="advSlink">Zaawansowane &raquo;</a>
+        </div>
+        <ul id="main_menu">
+          <li class="wyszukaj"><a href="/search/advanced/">Wyszukaj</a></li>
+          <li class="pomoc"><a href="/instrukcja/">Pomoc</a></li>
+          <li class="cennik"><a href="/files/cenniki-compressed.pdf">Cennik / Price list</a></li>
+          <li class="regulamin"><a href="/files/o_zbiorach.pdf">O zbiorach / Collections</a></li>
+          <li class="kontakt"><a href="/kontakt">Kontakt</a></li>
+          
+            <li class="zarejestruj"><a href="/ulubione/register/">Zarejestruj</a></li>
+            <li class="zaloguj"><a href="/ulubione/login">Zaloguj</a></li>
+          
+        </ul>
+      </div>
+      <div id="content">
+
+
+
+
+
+ 
+
+  <div class="small_box box_left">
+  <div class="small_box_top"></div>
+  <div class="small_box_content">
+
+<a href="/obraz/190165/"><img border="0" alt="poprzedni obraz" src="https://audiovis.nac.gov.pl/i/SM2/SM2_1-S-2232-4.jpg" /></a>
+
+
+  </div>
+  <div class="small_box_bottom"></div>
+  <div class="small_box_gloss"></div>
+  </div>
+
+
+
+
+  <div class="small_box box_right">
+  <div class="small_box_top"></div>
+  <div class="small_box_content">
+
+  <a href="/obraz/190167/"><img border="0" alt="następny obraz" src="https://audiovis.nac.gov.pl/i/SM2/SM2_1-S-2249-2.jpg" /></a>
+
+  </div>
+  <div class="small_box_bottom"></div>
+  <div class="small_box_gloss"></div>
+  </div>
+
+
+
+<div class="big_box">
+<div class="big_box_top">
+<div class="corner_left"></div>
+<div class="box_top_bg"></div>
+<div class="corner_right"></div>
+</div>
+
+<div class="big_box_content">
+
+<div class="box_title">Tytuł tematu: Mecz piłki nożnej Berlin - Kraków w Berlinie</div>
+<div class="photo"><a href="https://audiovis.nac.gov.pl/i/PIC/PIC_1-S-2249-1.jpg" rel="lytebox" border="0" tytul="Mecz piłki nożnej Berlin - Kraków w Berlinie" opis="Drużyna Krakowa. Widoczni m.in.: Jan Kotlarczyk (1. z prawej), Karol Pazurek (7. z lewej), Józef Kotlarczyk (5. z lewej), Karol Kossok (3. z lewej), Walerian Kisieliński (5. z prawej)." title="Kliknij, aby powiększyć "><img border="0" src="https://audiovis.nac.gov.pl/i/SM0/SM0_1-S-2249-1.jpg" style="border: 2px solid black;" alt="Kliknij, aby powiekszyc" /></a></div>
+<div class="box_title">Opis obrazu: Drużyna Krakowa. Widoczni m.in.: Jan Kotlarczyk (1. z prawej), Karol Pazurek (7. z lewej), Józef Kotlarczyk (5. z lewej), Karol Kossok (3. z lewej), Walerian Kisieliński (5. z prawej).</div>
+<div class="box_title">Data wydarzenia: 1934-12-02 </div>
+<div class="box_title">Miejsce:  Berlin</div>
+<div class="box_title">Osoby widoczne:   <a class="person" title="na zdjęciu jako: piłkarz">Walerian Kisieliński</a>, <a class="person" title="na zdjęciu jako: piłkarz">Karol Albert Kossok</a>, <a class="person" title="na zdjęciu jako: piłkarz">Józef Kotlarczyk</a>, <a class="person" title="na zdjęciu jako: piłkarz">Jan Kotlarczyk</a>, <a class="person" title="na zdjęciu jako: piłkarz">Karol Pazurek</a>,</div>
+<div class="box_title">Osoby niewidoczne: </div>
+<div class="box_title">Hasła przedmiotowe:     piłka nożna,    sport,</div>
+<div class="box_title">Inne nazwy własne: </div>
+<div class="box_title">Zakład fotograficzny: </div>
+<div class="box_title">Autor: </div>
+<div class="box_title">Zespół: <a class="link_zespol" href="/zespol/1/">Koncern Ilustrowany Kurier Codzienny - Archiwum Ilustracji</a></div>
+<div class="box_title">Sygnatura: 1-S-2249-1</div>
+
+</div>
+
+<div class="big_box_bottom">
+<div class="corner_left"></div>
+<div class="box_bottom_bg"></div>
+<div class="corner_right"></div>
+</div>
+</div>
+
+
+<div class="big_box">
+<div class="big_box_top">
+<div class="corner_left"></div>
+<div class="box_top_bg"></div>
+<div class="corner_right"></div>
+</div>
+
+<div class="big_box_content">
+<div class="box_title">Pozostałe zdjęcia: <a class="title_text"></a></div>
+
+
+
+<a href="/obraz/190166:1/"><img border="0" alt="poprzedni obraz" src="https://audiovis.nac.gov.pl/i/SM2/SM2_1-S-2249-1.jpg" style="width: 80px; height: 80px;" /></a>
+
+
+
+<a href="/obraz/190167:1/"><img border="0" alt="poprzedni obraz" src="https://audiovis.nac.gov.pl/i/SM2/SM2_1-S-2249-2.jpg" style="width: 80px; height: 80px;" /></a>
+
+
+
+<a href="/obraz/190168:1/"><img border="0" alt="poprzedni obraz" src="https://audiovis.nac.gov.pl/i/SM2/SM2_1-S-2249-3.jpg" style="width: 80px; height: 80px;" /></a>
+
+
+
+<a href="/obraz/190169:1/"><img border="0" alt="poprzedni obraz" src="https://audiovis.nac.gov.pl/i/SM2/SM2_1-S-2249-4.jpg" style="width: 80px; height: 80px;" /></a>
+
+
+
+<a href="/obraz/190170:1/"><img border="0" alt="poprzedni obraz" src="https://audiovis.nac.gov.pl/i/SM2/SM2_1-S-2249-5.jpg" style="width: 80px; height: 80px;" /></a>
+
+
+
+
+
+
+</div>
+<div class="big_box_bottom">
+<div class="corner_left"></div>
+<div class="box_bottom_bg"></div>
+<div class="corner_right"></div>
+</div>
+<div class="big_box_gloss"></div>
+</div>
+
+<div class="tabs">
+
+<div class="tab"><a class="bottom_tab" href="/haslo/563/">piłka nożna</a></div> 
+
+<div class="tab"><a class="bottom_tab" href="/haslo/376/">sport</a></div> 
+
+</div>
+
+<a href="/ulubione/dodaj/190166" class="dodajDoUlubionych">Dodaj do ulubionych</a>
+
+
+
+
+<!--    Czas wykonania skryptu: 0:00:00.163591<br>
+    Stron:  -->
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      try {
+        var pageTracker = _gat._getTracker("UA-7908827-2");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  </body>
+</html>
