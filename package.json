@@ -12,7 +12,9 @@
     "axios": "^0.16.2",
     "chalk": "^2.1.0",
     "cheerio": "^1.0.0-rc.2",
-    "minimist": "^1.2.0"
+    "excel4node": "^1.2.1",
+    "minimist": "^1.2.0",
+    "request": "^2.83.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
