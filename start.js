@@ -39,14 +39,15 @@ function getList() {
     try {
       if (args.pages) {
         resolve(readList(args.pages));
+      } else {
+        rl.question(
+          chalk.cyan('What is the name of list file?\n> '),
+          (input) => {
+            rl.close();
+            if (!input) { process.exit(0); }
+            resolve(readList(input));
+          });
       }
-      rl.question(
-        chalk.cyan('What is the name of list file?\n> '),
-        (input) => {
-          rl.close();
-          if (!input) { process.exit(0); }
-          resolve(readList(input));
-        });
     } catch (err) {
       reject(err);
     }
@@ -55,7 +56,7 @@ function getList() {
 
 function start() {
   getList()
-    .then(list => new App(list, config))
+    .then(list => new App(list, config, args))
     .catch(Logger.err);
 }
 

@@ -1,12 +1,15 @@
 const chalk = require('chalk');
 
-const c = console;
-
 class Logger {
-  static info(text) { c.log(chalk.gray(text)); }
-  static log(text) { c.log(chalk.white(text)); }
-  static warn(text) { c.log(chalk.yellow(text)); }
-  static err(text) { c.log(chalk.red(text)); }
+  static info(text, inline) { this.write('gray', text, inline); }
+  static log(text, inline) { this.write('white', text, inline); }
+  static warn(text, inline) { this.write('yellow', text, inline); }
+  static err(text, inline) { this.write('red', text, inline); }
+  static success(text, inline) { this.write('green', text, inline); }
+
+  static write(color, text, inline) {
+    process.stdout.write(chalk[color](text.concat(inline ? '' : '\n')));
+  }
 }
 
 module.exports = Logger;
