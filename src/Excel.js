@@ -1,6 +1,8 @@
 const path = require('path');
 const xl = require('excel4node');
 
+const Logger = require('./Logger');
+
 class Excel {
 
   constructor(queue) {
@@ -61,12 +63,17 @@ class Excel {
     const filename = `glam-scraper ${new Date().toISOString()}.xls`;
     const filepath = path.join(__dirname, '..', 'output', filename);
 
+    Logger.info(`Saving ${filename}...\n`);
     return new Promise((resolve, reject) => {
       this.wb.write(
         filepath, (err) => {
           if (err) {
+            Logger.err('Error');
+            Logger.err(err);
             reject(err);
           } else {
+            Logger.err('Success');
+            Logger.err(filename);
             resolve(filename);
           }
         });

@@ -7,8 +7,8 @@ class Logger {
   static err(text, inline) { this.write('red', text, inline); }
   static success(text, inline) { this.write('green', text, inline); }
 
-  static write(color, text, inline) {
-    process.stdout.write(chalk[color](text.concat(inline ? '' : '\n')));
+  static write(color, text = '', inline) {
+    process.stdout.write(chalk[color](`${text}${inline ? '' : '\n'}`));
   }
 }
 

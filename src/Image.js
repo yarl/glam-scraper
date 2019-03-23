@@ -63,7 +63,7 @@ class Image {
 
   setField(element) {
     let text = element.selector
-      ? this.$(element.selector).text().trim()
+      ? this.$(element.selector).html() // .text().trim()
       : element.value || '';
 
     if (text === '@url') {

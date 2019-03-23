@@ -8,6 +8,7 @@ const App = require('./src/App');
 const Logger = require('./src/Logger');
 
 const config = require('./input/config');
+const cheerio = require('cheerio');
 
 const args = minimist(process.argv.slice(2));
 const rl = readline.createInterface({
