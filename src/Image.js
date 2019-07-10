@@ -16,6 +16,8 @@ class Image {
     this.loadFile(data.config.file);
     this.loadName(data.config.name);
     this.loadFields(data.config.fields);
+
+    delete this.$;
   }
 
   downloadFile() {
@@ -63,7 +65,7 @@ class Image {
 
   setField(element) {
     let text = element.selector
-      ? this.$(element.selector).html() // .text().trim()
+      ? this.$(element.selector).text().trim()
       : element.value || '';
 
     if (text === '@url') {
